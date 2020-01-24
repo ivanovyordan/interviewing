@@ -17,6 +17,16 @@ CREATE TABLE drivers_license (
   car_model text
 );
 
+CREATE TABLE person (
+  id integer PRIMARY KEY,
+  name text,
+  license_id integer,
+  address_number integer,
+  address_street_name text,
+  ssn integer,
+  FOREIGN KEY (license_id) REFERENCES drivers_license(id)
+);
+
 CREATE TABLE facebook_event_checkin (
   person_id integer,
   event_id integer,
@@ -25,12 +35,10 @@ CREATE TABLE facebook_event_checkin (
   FOREIGN KEY (person_id) REFERENCES person(id)
 );
 
-CREATE TABLE get_fit_now_check_in (
-  membership_id text,
-  check_in_date integer,
-  check_in_time integer,
-  check_out_time integer,
-  FOREIGN KEY (membership_id) REFERENCES get_fit_now_member(id)
+CREATE TABLE interview (
+  person_id integer,
+  transcript text,
+  FOREIGN KEY (person_id) REFERENCES person(id)
 );
 
 CREATE TABLE get_fit_now_member (
@@ -42,31 +50,24 @@ CREATE TABLE get_fit_now_member (
   FOREIGN KEY (person_id) REFERENCES person(id)
 );
 
+CREATE TABLE get_fit_now_check_in (
+  membership_id text,
+  check_in_date integer,
+  check_in_time integer,
+  check_out_time integer,
+  FOREIGN KEY (membership_id) REFERENCES get_fit_now_member(id)
+);
+
 CREATE TABLE income (
   ssn integer PRIMARY KEY,
   annual_income integer
-);
-
-CREATE TABLE interview (
-  person_id integer,
-  transcript text,
-  FOREIGN KEY (person_id) REFERENCES person(id)
-);
-
-CREATE TABLE person (
-  id integer PRIMARY KEY,
-  name text,
-  license_id integer,
-  address_number integer,
-  address_street_name text,
-  ssn integer,
-  FOREIGN KEY (license_id) REFERENCES drivers_license(id)
 );
 
 CREATE TABLE solution (
   user integer,
   value text
 );
+
 CREATE TRIGGER check_solution AFTER INSERT ON solution
     WHEN new.user==1
       BEGIN
