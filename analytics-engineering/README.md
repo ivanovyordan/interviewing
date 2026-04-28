@@ -59,11 +59,9 @@ Fork this repository, do your work on your fork, and share the link with us when
 
 ## Setup
 
-1. Copy `profiles.yml.example` to `~/.dbt/profiles.yml` and fill in your connection details.
-   DuckDB requires no cloud account and works out of the box — see the commented options in `profiles.yml.example` if you prefer BigQuery or Snowflake.
-2. `dbt deps`
-3. `dbt seed`
-4. `dbt run`
+1. `dbt deps`
+2. `dbt seed`
+3. `dbt run`
 
 ## What we will discuss in the debrief
 
