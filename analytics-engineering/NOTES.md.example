@@ -1,0 +1,13 @@
+# Implementation Notes
+
+## Modeling approach
+<!-- Describe the structure you chose and why -->
+
+## CDC handling
+<!-- How did you resolve multiple rows per entity? What edge cases did you encounter or decide to ignore? -->
+
+## Assumptions
+<!-- List any assumptions you made about the data or business rules -->
+
+## What I would do with more time
+<!-- Be specific -->

@@ -1,0 +1,12 @@
+supplier_id,supplier_name,category,country,is_active,vat_number,created_at,updated_at,_sdc_extracted_at,_sdc_deleted_at
+SUP-501,Dishoom Ltd,restaurants,GB,true,GB123456789,2023-06-01 10:00:00,2023-06-01 10:00:00,2023-06-01 10:00:02,
+SUP-502,Avanti West Coast,transport,GB,true,GB987654321,2023-06-01 10:00:00,2023-06-01 10:00:00,2023-06-01 10:00:02,
+SUP-503,Uber Technologies Inc,transport,US,true,,2023-06-01 10:00:00,2023-06-01 10:00:00,2023-06-01 10:00:02,
+SUP-504,Staples Office Solutions,office_supplies,GB,true,GB111222333,2023-06-01 10:00:00,2023-06-01 10:00:00,2023-06-01 10:00:02,
+SUP-505,Amazon Web Services,cloud,US,true,,2023-06-15 09:00:00,2023-06-15 09:00:00,2023-06-15 09:00:02,
+SUP-501,Dishoom Ltd,entertainment,GB,true,GB123456789,2023-06-01 10:00:00,2023-09-14 08:30:00,2023-09-14 08:30:03,
+SUP-501,Dishoom Ltd,meals_and_entertainment,GB,true,GB123456789,2023-06-01 10:00:00,2023-11-20 15:45:00,2023-11-20 15:45:03,
+SUP-504,Office Depot (formerly Staples),office_supplies,GB,false,GB111222333,2023-06-01 10:00:00,2024-01-02 09:00:00,2024-01-02 09:00:03,
+SUP-506,Slack Technologies,software,US,true,,2024-01-03 11:00:00,2024-01-03 11:00:00,2024-01-03 11:00:02,
+SUP-505,Amazon Web Services,cloud_infrastructure,US,true,,2023-06-15 09:00:00,2024-01-10 08:00:00,2024-01-10 08:00:03,
+SUP-503,Uber Technologies Inc,transport,US,false,,2023-06-01 10:00:00,2024-01-20 10:00:00,2024-01-20 10:00:03,

@@ -1,0 +1,13 @@
+line_item_id,claim_id,description,amount,currency,category,receipt_url,created_at,updated_at,_sdc_extracted_at,_sdc_deleted_at
+LI-001,CLM-001,Team lunch at Dishoom,142.50,GBP,meals,https://receipts.dext.com/r/abc123,2024-01-08 09:12:03,2024-01-08 09:12:03,2024-01-08 09:12:05,
+LI-002,CLM-002,Train tickets London-Manchester,88.00,GBP,travel,https://receipts.dext.com/r/def456,2024-01-09 10:05:02,2024-01-09 10:05:02,2024-01-09 10:05:04,
+LI-003,CLM-003,AWS cloud hosting Jan,200.00,GBP,software,https://receipts.dext.com/r/ghi789,2024-01-10 08:30:05,2024-01-10 08:30:05,2024-01-10 08:30:07,
+LI-004,CLM-003,Slack annual licence,110.00,GBP,software,https://receipts.dext.com/r/jkl012,2024-01-10 08:30:06,2024-01-10 08:30:06,2024-01-10 08:30:08,
+LI-005,CLM-004,Uber to client site,55.00,GBP,travel,https://receipts.dext.com/r/mno345,2024-01-11 07:55:01,2024-01-11 07:55:01,2024-01-11 07:55:03,
+LI-001,CLM-001,Team lunch at Dishoom,142.50,GBP,meals,https://receipts.dext.com/r/abc123,2024-01-08 09:12:03,2024-01-11 16:05:50,2024-01-11 16:06:00,
+LI-001,CLM-001,Team lunch at Dishoom,189.00,GBP,meals,https://receipts.dext.com/r/abc123,2024-01-08 09:12:03,2024-01-11 16:09:50,2024-01-11 16:10:00,
+LI-006,CLM-005,Office supplies,200.00,GBP,office,https://receipts.dext.com/r/pqr678,2024-01-15 08:00:04,2024-01-15 08:00:04,2024-01-15 08:00:06,
+LI-003,CLM-003,AWS cloud hosting Jan,200.00,GBP,cloud_infrastructure,,2024-01-10 08:30:05,2024-01-15 09:57:55,2024-01-15 09:58:00,
+LI-006,CLM-005,Office supplies,200.00,GBP,office,,2024-01-15 08:00:04,2024-01-15 08:45:50,2024-01-15 08:46:00,2024-01-15 08:46:00
+LI-007,CLM-006,Hotel Edinburgh 2 nights,340.00,GBP,accommodation,https://receipts.dext.com/r/stu901,2024-01-17 11:00:00,2024-01-17 11:00:00,2024-01-17 11:00:02,
+LI-008,CLM-006,Train tickets to Edinburgh,62.00,GBP,travel,https://receipts.dext.com/r/vwx234,2024-01-17 11:00:28,2024-01-17 11:00:28,2024-01-17 11:00:30,

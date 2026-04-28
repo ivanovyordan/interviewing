@@ -1,0 +1,30 @@
+name: 'dext_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dext_analytics'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  dext_analytics:
+    +schema: raw
+    +column_types:
+      created_at: timestamp
+      updated_at: timestamp
+      submitted_at: timestamp
+      _sdc_extracted_at: timestamp
+      _sdc_deleted_at: timestamp
+
+models:
+  dext_analytics:
+    +materialized: view

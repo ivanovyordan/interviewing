@@ -1,0 +1,10 @@
+employee_id,full_name,email,department,cost_centre,employment_status,manager_id,created_at,updated_at,_sdc_extracted_at,_sdc_deleted_at
+EMP-101,Sarah Chen,sarah.chen@dext.com,Engineering,CC-ENG,active,EMP-201,2022-03-01 09:00:00,2022-03-01 09:00:00,2022-03-01 09:00:02,
+EMP-102,Marcus Okafor,marcus.okafor@dext.com,Sales,CC-SAL,active,EMP-202,2022-05-15 09:00:00,2022-05-15 09:00:00,2022-05-15 09:00:02,
+EMP-103,Priya Sharma,priya.sharma@dext.com,Finance,CC-FIN,active,EMP-203,2022-07-01 09:00:00,2022-07-01 09:00:00,2022-07-01 09:00:02,
+EMP-104,Tom Bradley,tom.bradley@dext.com,Engineering,CC-ENG,active,EMP-201,2023-01-10 09:00:00,2023-01-10 09:00:00,2023-01-10 09:00:02,
+EMP-105,Lena Fischer,lena.fischer@dext.com,Marketing,CC-MKT,active,EMP-205,2023-09-01 09:00:00,2023-09-01 09:00:00,2023-09-01 09:00:02,
+EMP-101,Sarah Chen,sarah.chen@dext.com,Product,CC-PRD,active,EMP-204,2022-03-01 09:00:00,2023-08-01 09:00:00,2023-08-01 09:00:02,
+EMP-103,Priya Sharma,priya.sharma@dext.com,Finance,CC-FIN,active,EMP-206,2022-07-01 09:00:00,2023-11-01 09:00:00,2023-11-01 09:00:02,
+EMP-102,Marcus Okafor,marcus.okafor@dext.com,Partnerships,CC-PAR,active,EMP-204,2022-05-15 09:00:00,2024-01-02 09:00:00,2024-01-02 09:00:02,
+EMP-104,Tom Bradley,tom.bradley@dext.com,Engineering,CC-ENG,terminated,,2023-01-10 09:00:00,2024-01-18 09:00:00,2024-01-18 09:00:02,
